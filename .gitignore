@@ -1,0 +1,24 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large dataset (Steam Reviews >100MB)
+data/steam_reviews.csv
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files & logs
+*.log
